@@ -1,0 +1,22 @@
+GET http://localhost:3000/subscribers/
+
+###
+GET http://localhost:3000/subscribers/605227e6e8a36d1b92dfbc58
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+
+{
+    "name": "Steve Rogers",
+    "subscribedToService": "My Channel"
+}
+
+###
+PATCH  http://localhost:3000/subscribers/60522824e8a36d1b92dfbc59
+Content-Type: application/json
+
+{
+    "name": "Tony Stark"
+}
